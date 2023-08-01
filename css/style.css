@@ -15,7 +15,7 @@ li {
   list-style: none;
 }
 img {
-  /* vertical-align: top; */
+  vertical-align: top;
   max-width: 100%;
 }
 h1,
@@ -46,8 +46,17 @@ body {
   color: #fff;
 }
 
-.image-slider {
+.image-slider .swiper-pagination {
+  bottom: 0;
 }
+.image-slider .swiper-pagination-bullet {
+  width: 28px;
+  height: 28px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
 .swiper-container {
 }
 .image-slider_wrapper {
